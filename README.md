@@ -61,3 +61,10 @@ Setelah semua sudah berhasil, langkah selanjutnya jalankan local server dengan p
 ```
 php artisan serve
 ```
+
+## Lihat Dokumentasi dan Demo
+
+Jangan lupa lihat dokumentasi dan demo untuk penjelasan dan pengimplementasian kode di:
+
+<a href="http://trirand.com/blog/">Jqgrid</a>
+
