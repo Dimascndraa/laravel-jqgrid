@@ -1,0 +1,19 @@
+.table-wrapper {
+    margin: 1rem;
+}
+
+.name-text {
+    color: red;
+}
+
+.state_inactive {
+    background-color: rgba(220, 220, 220, 1) !important;
+}
+
+.ui-menu-item {
+    font-size: 11px;
+}
+
+ui-autocomplete {
+    font-size: 11px;
+}
