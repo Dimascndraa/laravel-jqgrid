@@ -20,6 +20,10 @@ Route::get('/', function () {
 });
 
 Route::get('/get-students-data', [StudentController::class, 'getStudentsData']);
+
+
+Route::get('/get-student', [StudentController::class, 'getEditStudent'])->name('get.edit.student');
+
 Route::post('/edit-student', [StudentController::class, 'editStudent']);
 Route::post('/add-student', [StudentController::class, 'addStudent']);
-Route::post('/delete-student', [StudentController::class, 'deleteStudent']);
+Route::post('/save-edited-student', [StudentController::class, 'updateStudent'])->name('update-student');
